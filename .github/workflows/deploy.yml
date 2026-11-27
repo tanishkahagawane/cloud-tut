@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs_on: ununtu-latest
+    runs-on: ununtu-latest
 
     steps:
       - name: checkout code
