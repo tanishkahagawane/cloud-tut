@@ -11,7 +11,7 @@ app.get("/health", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  return res.status(200).json({ message: "Hello from level 5 !!!" });
+  return res.status(200).json({ message: "Hello from CICD imple !!!" });
 });
 
 app.listen(port, () => {
